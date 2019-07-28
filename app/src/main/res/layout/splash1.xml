@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimaryDark">
+
+
+    <Button android:layout_width="175dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="25dp"
+            android:background="#99999999"
+            android:text="Continue"
+            android:textAllCaps="false"
+            android:textSize="21sp"
+            android:id="@+id/btnsplash1"/>
+    <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:src="@drawable/doctor"
+
+    />
+
+    <TextView
+            android:id="@+id/splashTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Feature Overview:"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:layout_below="@+id/imageView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" android:layout_marginLeft="3dp" android:layout_marginTop="15dp"
+            android:layout_marginStart="3dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/textview1"
+            android:text="Search doctors and hospitals within Proximity by doctor name, Hospital, Area, Gender or Specialization
+View doctor's schedule, timings, all practice centers, qualifications, specializations and gender
+- View facilities and services provided by hospitals, clinics and diagnostic centers
+- Call to Book appointment directly from the app
+- Find your way to the hospital with integrated Google Maps with directions from your current location
+- Share doctor's and hospital information with your loved ones via SMS, WhatsApp, Email and Facebook
+- Instant Calling to Ambulance service and other important Emergency Number
+- You can Bookmark doctor to refer it later"
+            android:layout_below="@+id/splashTextView"
+            android:layout_marginTop="25dp"
+            android:textSize="17sp"
+            android:textColor="#ffffff"
+            android:textAlignment="center"
+            android:textStyle="italic"
+    />
+
+
+</RelativeLayout>
