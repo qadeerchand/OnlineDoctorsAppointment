@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/sthetho"
+            android:title="Home"
+            android:titleCondensed="Home"
+            android:icon="@drawable/ic_action_doc_stetho"/>
+    <item
+    android:id="@+id/medicine"
+    android:title="Pharmacy"
+    android:titleCondensed="Pharmacy"
+    android:icon="@drawable/ic_action_doc_medicine"/>
+    <item
+        android:id="@+id/find_doctor"
+        android:title="Find Doctor"
+        android:titleCondensed="Find Doctor"
+        android:icon="@drawable/ic_action_doc_docbottom"/>
+    <item
+        android:id="@+id/find_hostpital"
+        android:title="Find Hostpital"
+        android:titleCondensed="Find Hostpital"
+        android:icon="@drawable/ic_action_hostpital"/>
+    <item
+        android:id="@+id/user_setting"
+        android:title="Settings"
+        android:titleCondensed="Settings"
+        android:icon="@drawable/ic_action_doc_buddy"/>
+
+</menu>

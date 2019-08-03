@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">DigiDoc</string>
+    <string name="Title_Home">Home</string>
+    <string name="Find_Doctor">Android Spinner</string>
+
+    <string-array name="doctor_list">
+        <item>Dr. Suleman Fakieh</item>
+        <item>Dr. Salim</item>
+        <item>Dr. Shazia</item>
+        <item>Dr. Fatima kalsoom</item>
+        <item>Dr. Naeem Khan</item>
+        <item>Dr. Ihsan</item>
+        <item>Dr. Shamas</item>
+        <item>Dr. Ameen</item>
+        <item>Dr. Parveen</item>
+        <item>Dr. Noreen</item>
+
+    </string-array>
 
 </resources>

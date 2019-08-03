@@ -22,7 +22,7 @@ class SignUp : AppCompatActivity() {
            val email: String =editinputemail.text.toString()
            val pass: String =editinputpass.text.toString()
            val bd: String =editinputBD.text.toString()
-           val gndr: String =male.text.toString()
+          val gndr: String =male.text.toString()
            val gndr1: String =Female.text.toString()
            val explicitIntent = Intent(this@SignUp, Profile::class.java)
            explicitIntent.putExtra("username",user)

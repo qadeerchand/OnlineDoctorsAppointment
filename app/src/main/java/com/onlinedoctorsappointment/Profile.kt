@@ -35,7 +35,7 @@ class Profile : AppCompatActivity() {
         fil_email.text=email_1
         fil_pswrd.text=pswd_1
         fil_dob2.text=dob_1
-        fil_gndr.text=gndr_1
+        fil_gndr.text=gndr_2
     }
 
     private fun showConfirmationDialog() {

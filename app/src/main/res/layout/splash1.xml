@@ -23,7 +23,7 @@
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:src="@drawable/doctor"
 
     />
@@ -46,19 +46,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:id="@+id/textview1"
+            android:padding="7dp"
             android:text="Search doctors and hospitals within Proximity by doctor name, Hospital, Area, Gender or Specialization
 View doctor's schedule, timings, all practice centers, qualifications, specializations and gender
-- View facilities and services provided by hospitals, clinics and diagnostic centers
-- Call to Book appointment directly from the app
-- Find your way to the hospital with integrated Google Maps with directions from your current location
-- Share doctor's and hospital information with your loved ones via SMS, WhatsApp, Email and Facebook
-- Instant Calling to Ambulance service and other important Emergency Number
-- You can Bookmark doctor to refer it later"
+\n- View facilities and services provided by hospitals, clinics and diagnostic centers
+\n- Call to Book appointment directly from the app
+\n- Find your way to the hospital with integrated Google Maps with directions from your current location
+\n- Share doctor's and hospital information with your loved ones via SMS, WhatsApp, Email and Facebook
+\n- Instant Calling to Ambulance service and other important Emergency Number
+\n- You can Bookmark doctor to refer it later"
             android:layout_below="@+id/splashTextView"
-            android:layout_marginTop="25dp"
+            android:layout_marginTop="10dp"
             android:textSize="17sp"
+            android:textAlignment="gravity"
             android:textColor="#ffffff"
-            android:textAlignment="center"
             android:textStyle="italic"
     />
 
