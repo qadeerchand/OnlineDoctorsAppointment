@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/navigation_home"
+            android:icon="@drawable/ic_action_doc_stetho"
+            android:title="@string/title_home"/>
+
+    <item
+            android:id="@+id/navigation_find_doctor"
+            android:icon="@drawable/ic_action_doc_docbottom"
+            android:title="Find Doctor"/>
+
+    <item
+            android:id="@+id/navigation_Find_Hostpital"
+            android:icon="@drawable/ic_action_doc_hostpital"
+            android:title="Find Hostpital"/>
+    <item
+            android:id="@+id/navigation_pharmacy"
+            android:icon="@drawable/ic_action_doc_medicine"
+            android:title="Pharmacy"/>
+
+</menu>

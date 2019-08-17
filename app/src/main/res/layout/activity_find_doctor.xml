@@ -6,7 +6,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="20dp"
-        tools:context=".FindDoctor">
+        >
 
     <TextView android:layout_width="wrap_content"
               android:layout_height="wrap_content"
@@ -18,8 +18,6 @@
               android:textAlignment="center"
               android:id="@+id/user_help"
               android:text="How we can take \n care yourself?"/>
-
-
     <Spinner
             android:id="@+id/spinner1"
             android:layout_width="match_parent"
@@ -59,7 +57,5 @@
             android:textColor="#ffffff"
             android:background="@drawable/rndbtn_pressed"
             android:id="@+id/btn_finddoctor"/>
-
-
 
 </RelativeLayout>

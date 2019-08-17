@@ -5,6 +5,7 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.support.annotation.IntegerRes
 import android.view.ViewDebug
+import android.widget.ArrayAdapter
 import android.widget.RadioGroup
 import kotlinx.android.synthetic.main.signup.*
 
@@ -40,4 +41,5 @@ class SignUp : AppCompatActivity() {
     }
 
 }
+
 
