@@ -16,29 +16,6 @@ class MainActivity : AppCompatActivity() {
             setContentView(R.layout.activity_main)
 
 
-            val recyclerView = findViewById(R.id.recyclerView) as RecyclerView
-            recyclerView.layoutManager = LinearLayoutManager(this,LinearLayout.VERTICAL,false)
-
-            val lists = ArrayList<doctor_list>()
-
-            lists.add(doctor_list("Dr.Suleman Fakih","General Surgeon"))
-            lists.add(doctor_list("Dr.Shazia Roman","Gynaecologist"))
-            lists.add(doctor_list("Dr.Ihsan","Child Specialist"))
-            lists.add(doctor_list("Dr.Furqan","Heart Surgeon"))
-            lists.add(doctor_list("Dr.Qadeer","Dentist"))
-            lists.add(doctor_list("Dr.Suleman Fakih","General Surgeon"))
-            lists.add(doctor_list("Dr.Suleman Fakih","General Surgeon"))
-            lists.add(doctor_list("Dr.Shazia Roman","Gynaecologist"))
-            lists.add(doctor_list("Dr.Ihsan","Child Specialist"))
-            lists.add(doctor_list("Dr.Furqan","Heart Surgeon"))
-            lists.add(doctor_list("Dr.Qadeer","Dentist"))
-            lists.add(doctor_list("Dr.Suleman Fakih","General Surgeon"))
-
-            val adapter = CustomAdapter(lists)
-
-            recyclerView.adapter = adapter
-
-
         }
 
 

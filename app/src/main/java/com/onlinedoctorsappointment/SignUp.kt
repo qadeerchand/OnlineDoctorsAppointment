@@ -25,7 +25,7 @@ class SignUp : AppCompatActivity() {
            val bd: String =editinputBD.text.toString()
           val gndr: String =male.text.toString()
            val gndr1: String =Female.text.toString()
-           val explicitIntent = Intent(this@SignUp, Profile::class.java)
+           val explicitIntent = Intent(this@SignUp, Login::class.java)
            explicitIntent.putExtra("username",user)
            explicitIntent.putExtra("phon",phn)
            explicitIntent.putExtra("mail",email)
