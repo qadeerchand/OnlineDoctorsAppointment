@@ -21,7 +21,7 @@ class Login : AppCompatActivity() {
 
 
         btn1.setOnClickListener {
-            val intent = Intent(this@Login,HomeBottom::class.java)
+            val intent = Intent(this@Login,SplashHome::class.java)
             startActivity(intent)
         }
         view3.setOnClickListener(View.OnClickListener {

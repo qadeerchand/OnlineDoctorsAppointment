@@ -11,51 +11,63 @@
     <TextView android:layout_width="wrap_content"
               android:layout_height="wrap_content"
               android:layout_centerHorizontal="true"
-              android:layout_marginTop="10dp"
               android:textSize="30sp"
               android:textStyle="bold"
               android:textColor="#8D3F51B5"
               android:textAlignment="center"
-              android:id="@+id/user_help"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:id="@+id/user_help"
+
               android:text="How we can take \n care yourself?"/>
-    <Spinner
-            android:id="@+id/spinner1"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/user_help"
-            android:outlineSpotShadowColor="@color/colorAccent"
-            android:layout_marginTop="15dp" />
-    <Spinner
-            android:id="@+id/spinner2"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/spinner1"
-            android:layout_marginTop="20dp" />
-    <Spinner
-            android:id="@+id/spinner3"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/spinner2"
-            android:layout_marginTop="20dp" />
-    <Spinner
-            android:id="@+id/spinner4"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_centerHorizontal="true"
-            android:layout_below="@+id/spinner3"
-            android:layout_marginTop="20dp" />
-    <Button android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/spinner4"
-            android:layout_marginTop="25dp"
-            android:text="Find Doctor"
-            android:textAllCaps="false"
-            android:textSize="20sp"
-            android:textColor="#ffffff"
-            android:background="@drawable/rndbtn_pressed"
-            android:id="@+id/btn_finddoctor"/>
+    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+        android:id="@+id/spinner1"
+        android:gravity="center"
+        android:layout_marginTop="150dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:smsp_floatingLabelColor="#1976D2"
+        app:smsp_floatingLabelText="Floating Label Text"
+        app:smsp_hint="Choose Doctor"
+        app:smsp_hintColor="#388E3C"
+        app:smsp_itemColor="#512DA8"
+        app:smsp_itemListColor="#7C4DFF"
+        app:smsp_itemListHintBackgroundColor="#808080"
+        app:smsp_itemListHintColor="#FFFFFF"
+        app:smsp_multilineError="false"
+        app:smsp_selectedItemListColor="#FF5252" />
+
+    <com.chivorn.smartmaterialspinner.SmartMaterialSpinner
+        android:id="@+id/spinner2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner1"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:layout_marginTop="15dp"
+        app:smsp_floatingLabelColor="#1976D2"
+        app:smsp_floatingLabelText="Floating Label Text"
+        app:smsp_hint="Choose Specialty"
+        app:smsp_hintColor="#388E3C"
+        app:smsp_itemColor="#512DA8"
+        app:smsp_itemListColor="#7C4DFF"
+        app:smsp_itemListHintBackgroundColor="#808080"
+        app:smsp_itemListHintColor="#FFFFFF"
+        app:smsp_multilineError="false"
+        app:smsp_selectedItemListColor="#FF5252" />
+
+    <Button
+        android:id="@+id/btn_finddoctor"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spinner4"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/rndbtn_pressed"
+        android:text="Find Doctor"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"
+        android:layout_alignParentBottom="true"
+        android:textSize="20sp" />
 
 </RelativeLayout>

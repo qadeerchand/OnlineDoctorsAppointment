@@ -46,7 +46,6 @@ class HomeBottom : AppCompatActivity() {
         val transaction = manager.beginTransaction()
         val fragment = HomeFragment()
         transaction.replace(id.fragment_container,fragment)
-        transaction.addToBackStack(null)
         transaction.commit()
     }
 
@@ -54,21 +53,21 @@ class HomeBottom : AppCompatActivity() {
         val transaction = manager.beginTransaction()
         val fragment = FindDoctor_Fragment()
         transaction.replace(id.fragment_container,fragment)
-        transaction.addToBackStack(null)
+//        transaction.addToBackStack(null)
         transaction.commit()
     }
     private fun addFindHostpital() {
         val transaction = manager.beginTransaction()
         val fragment = FindHostpital_Fragment()
         transaction.replace(id.fragment_container,fragment)
-        transaction.addToBackStack(null)
+//        transaction.addToBackStack(null)
         transaction.commit()
     }
     private fun addPharmacy() {
         val transaction = manager.beginTransaction()
         val fragment = PharmacyFragment()
         transaction.replace(id.fragment_container,fragment)
-        transaction.addToBackStack(null)
+//        transaction.addToBackStack(null)
         transaction.commit()
     }
 
